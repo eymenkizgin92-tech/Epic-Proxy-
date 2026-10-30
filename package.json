@@ -1,0 +1,14 @@
+{
+  "name": "epic-proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "bedrock-protocol": "^8.0.0"
+  },
+  "scripts": {
+    "start": "node index.js play.nethergames.org 19132"
+  },
+  "overrides": {
+    "tar": "^6.2.1"
+  }
+}
